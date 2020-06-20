@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="addressbook.fxmForms.MainScreenController">
+   <right>
+      <VBox prefHeight="400.0" prefWidth="183.0" style="-fx-padding: 5px; -fx-spacing: 5px; -fx-border-color: green;" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="43.0" prefWidth="148.0" text="Current Address Book" />
+            <Label fx:id="txt_bookname" prefHeight="43.0" prefWidth="148.0" text="File_name.txt" />
+            <Label prefHeight="43.0" prefWidth="148.0" text="Book Size" />
+            <Label fx:id="txt_booksize" prefHeight="43.0" prefWidth="148.0" text="0 Contacts" />
+         </children>
+      </VBox>
+   </right>
+</BorderPane>

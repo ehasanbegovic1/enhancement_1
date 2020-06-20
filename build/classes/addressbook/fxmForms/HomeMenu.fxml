@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="468.0" prefWidth="205.0" style="-fx-border-color: green; -fx-spacing: 5px;" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="addressbook.fxmForms.HomeMenuController">
+   <children>
+      <Label prefHeight="44.0" prefWidth="205.0" text="Contact Manager">
+         <font>
+            <Font name="Agency FB Bold" size="22.0" />
+         </font></Label>
+      <JFXButton fx:id="createbook" buttonType="RAISED" contentDisplay="TOP" graphicTextGap="0.0" onAction="#createAddressBook" prefHeight="39.0" prefWidth="205.0" style="-fx-border-color: gray;" text="Create Address Book" />
+      <JFXButton fx:id="loadContacts" layoutX="10.0" layoutY="93.0" onAction="#LoadContacts" prefHeight="39.0" prefWidth="205.0" style="-fx-border-color: gray;" text="Load Contacts" />
+      <JFXButton fx:id="addnewcontac" layoutX="10.0" layoutY="132.0" onAction="#addNewContact" prefHeight="39.0" prefWidth="205.0" style="-fx-border-color: gray;" text="Add New Contact" />
+      <JFXButton fx:id="viewcontact" layoutX="10.0" layoutY="249.0" onAction="#viewCotact" prefHeight="39.0" prefWidth="205.0" style="-fx-border-color: gray;" text="View/Delete Contact" />
+      <JFXButton fx:id="createbackup" layoutX="10.0" layoutY="288.0" onAction="#createBackUp" prefHeight="39.0" prefWidth="205.0" style="-fx-border-color: gray;" text="Create Back Up" />
+      <JFXButton fx:id="searchcontact" layoutX="11.0" layoutY="148.0" onAction="#searchContact" prefHeight="39.0" prefWidth="205.0" style="-fx-border-color: gray;" text="Search Contact" />
+   </children>
+</VBox>

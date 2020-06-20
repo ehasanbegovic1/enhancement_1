@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AddressBookJFX.jnlp">
+  <information>
+    <title>AddressBookJFX</title>
+    <vendor>Dr Issah</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AddressBookJFX.jar" size="3802422" download="eager" />
+    <jar href="lib\controlsfx-8.40.14.jar" size="1215643" download="eager" />
+    <jar href="lib\fontawesomefx-8.7.jar" size="438884" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2384520" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AddressBookJFX" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="addressbook.AddressBook"  name="AddressBookJFX" />
+  <update check="always"/>
+</jnlp>

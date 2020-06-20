@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="addressbook.fxmForms.ViewContactsController">
+   <children>
+      <ScrollPane prefHeight="400.0" prefWidth="291.0">
+         <content>
+            <StackPane prefHeight="397.0" prefWidth="307.0">
+               <children>
+                  <VBox fx:id="data_holder" prefHeight="379.0" prefWidth="292.0" />
+               </children>
+            </StackPane>
+         </content>
+      </ScrollPane>
+   </children>
+</StackPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="343.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="addressbook.fxmForms.CreateNewContactController">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-spacing: 5px;">
+         <children>
+            <HBox alignment="CENTER">
+               <children>
+                  <Label prefHeight="47.0" prefWidth="215.0" text="Create New Contact" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="47.0" prefWidth="343.0" style="-fx-padding: 5px;">
+               <children>
+                  <JFXTextField fx:id="txt_fname" prefHeight="34.0" prefWidth="254.0" promptText="First Name" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="57.0" prefHeight="47.0" prefWidth="343.0" style="-fx-padding: 5px;">
+               <children>
+                  <JFXTextField fx:id="txt_lname" prefHeight="34.0" prefWidth="254.0" promptText="Last Name" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="104.0" prefHeight="47.0" prefWidth="343.0" style="-fx-padding: 5px;">
+               <children>
+                  <JFXTextField fx:id="txt_email" prefHeight="34.0" prefWidth="254.0" promptText="Email Address" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="151.0" prefHeight="47.0" prefWidth="343.0" style="-fx-padding: 5px;">
+               <children>
+                  <JFXTextField fx:id="txt_address" prefHeight="34.0" prefWidth="254.0" promptText="Address" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="198.0" prefHeight="47.0" prefWidth="343.0" style="-fx-padding: 5px;">
+               <children>
+                  <JFXTextField fx:id="txt_phone" prefHeight="34.0" prefWidth="254.0" promptText="Phone Number" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="270.0" prefHeight="47.0" prefWidth="343.0" style="-fx-padding: 5px;">
+               <children>
+                  <JFXButton fx:id="btn_add" onAction="#addNewContact" prefHeight="33.0" prefWidth="140.0" text="Add Contact" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>
